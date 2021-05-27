@@ -1,0 +1,27 @@
+@import "../../styles/modulesImports";
+
+.loginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loginContent {
+  display: flex;
+  border: 1px solid red;
+  min-height: 400px;
+  width: 560px;
+}
+
+.promoWrapper {
+  padding: 12px;
+  width: 100%;
+  border: 1px solid blue;
+}
+
+.loginWrapper {
+  padding: 12px;
+  width: 100%;
+  border: 1px solid blue;
+}

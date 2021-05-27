@@ -1,0 +1,36 @@
+@import "../../styles/modulesImports";
+
+.mainNav {
+  display: flex;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.navItem {
+  margin-left: 4px;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  width: 90px;
+
+  &IconWrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &Icon {
+    color: $primary-blue;
+  }
+
+  &Text {
+    color: $primary-blue;
+    font-size: 1rem;
+    line-height: 1;
+    margin: auto;
+    padding: 6px;
+  }
+}
