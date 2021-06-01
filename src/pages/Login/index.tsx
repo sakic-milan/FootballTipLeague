@@ -11,8 +11,6 @@ const Login = () => {
           Login
           <InputField />
           <InputField />
-          <InputField />
-          <InputField />
         </div>
       </div>
     </section>

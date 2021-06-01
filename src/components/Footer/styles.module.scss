@@ -1,0 +1,44 @@
+@import "../../styles/modulesImports";
+
+.footer {
+  color: $primary-white;
+  background-color: $primary-blue;
+  height: 280px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.footerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 940px;
+  height: 100%;
+}
+
+.footerAbout {
+  width: 380px;
+  margin-right: 1.8rem;
+  padding: 6px 12px;
+}
+
+.footerBox {
+  width: 200px;
+  margin-right: 1.6rem;
+  padding: 6px 12px;
+}
+
+.footerBottomSection {
+  display: flex;
+  justify-content: center;
+  background-color: $primary-blue-dark;
+  height: 42px;
+
+  &Inner {
+    width: 940px;
+    color: $primary-gray;
+    margin: auto;
+    padding-left: 24px;
+  }
+}
