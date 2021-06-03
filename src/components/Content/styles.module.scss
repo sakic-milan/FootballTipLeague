@@ -1,0 +1,12 @@
+.contentWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.content {
+  box-sizing: border-box;
+  width: 940px;
+  height: 100%;
+  padding: 4px 12px;
+}

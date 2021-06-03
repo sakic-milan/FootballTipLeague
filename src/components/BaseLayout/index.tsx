@@ -1,4 +1,5 @@
 import { FunctionComponent } from "react";
+import Content from "../Content";
 import Footer from "../Footer";
 import Header from "../Header";
 
@@ -8,31 +9,13 @@ const BaseLayout: FunctionComponent<BaseLayoutProps> = () => {
   return (
     <>
       <Header />
-      <div style={{ maxWidth: "350px" }}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
-        labore nulla? Minus ducimus saepe natus qui repellendus unde aut facere?
-        Recusandae, cum obcaecati? Eveniet iste dolores rerum architecto quidem
-        aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Exercitationem, labore nulla? Minus ducimus saepe natus qui repellendus
-        unde aut facere? Recusandae, cum obcaecati? Eveniet iste dolores rerum
-        architecto quidem aspernatur! Lorem ipsum dolor sit amet consectetur
-        nulla? Minus ducimus saepe natus qui repellendus unde aut facere?
-        Recusandae, cum obcaecati? Eveniet iste dolores rerum architecto quidem
-        aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Exercitationem, labore nulla? Minus ducimus saepe natus qui repellendus
-        unde aut facere? Recusandae, cum obcaecati? Eveniet iste dolores rerum
-        architecto quidem aspernatur! Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Exercitationem, labore nulla? Minus ducimus saepe
-        natus qui repellendus unde aut facere? Recusandae, cum obcaecati?
-        Eveniet iste dolores rerum architecto quidem aspernatur! Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Exercitationem, labore
-        nulla? Minus ducimus saepe natus qui repellendus unde aut facere?
-        Recusandae, cum obcaecati? Eveniet iste dolores rerum architecto quidem
-        aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Exercitationem, labore nulla? Minus ducimus saepe natus qui repellendus
-        unde aut facere? Recusandae, cum obcaecati? Eveniet iste dolores rerum
-        architecto quidem aspernatur!
-      </div>
+
+      <Content>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+        aliquid ipsum culpa tempore ea! Nisi asperiores, esse nihil quidem eos
+        nobis totam atque nulla iste blanditiis, minima recusandae, expedita
+        voluptas.
+      </Content>
       <Footer />
     </>
   );
